@@ -1,0 +1,13 @@
+body {
+  background-color: orange;
+}
+
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: green;
+  font-size: 60px;
+  text-align: center;
+}
