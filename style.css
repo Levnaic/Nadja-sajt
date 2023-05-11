@@ -1,17 +1,48 @@
-body {
-  background-color: orange;
+:root {
+  --bojaSlova: #f1f6f9;
+  --bojaPozadine: #212a3e;
+  --svetlijaPlava: #394867;
+  --siva: #9ba4b5;
 }
 
-h1 {
-  color: blue;
+body {
+  margin: 0;
+  margin: 0 10%;
+  background-color: var(--bojaPozadine);
+  color: var(--bojaSlova);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--siva);
 }
 
 h2 {
-  color: green;
   font-size: 60px;
   text-align: center;
 }
 
-h3 {
-  color: aqua;
+img {
+  width: 150px;
+  aspect-ratio: 1;
+}
+
+button {
+  width: 150px;
+  height: 60px;
+  background-color: var(--svetlijaPlava);
+  border: 3px solid var(--siva);
+  border-radius: 25px;
+  color: var(--bojaSlova);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--bojaPozadine);
+  color: var(--bojaSlova);
+}
+
+button:active {
+  transform: scale(0.98);
 }
